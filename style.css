@@ -1,0 +1,30 @@
+table, th, td{
+    border: 1px solid black
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#studentTable{
+  width: fit-content;
+  background-color: lightgrey;
+  margin-top: 20px;
+}
+.error-msg
+{
+    color: red;
+    font-weight: 700;
+    background-color: lightgrey;
+    border-radius: 10px;
+
+}
+.form-container button{
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.green{
+  color: green;
+}

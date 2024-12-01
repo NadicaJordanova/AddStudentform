@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Javascript 7</h1>
+
+    <!-- <button>Add Heading</button> -->
+
+    <div class="form-container">
+      <label for="">Name</label>
+      <input type="text" id="nameInput" />
+      <span id="nameInputError" class="error-msg"></span>
+      <label for="">Last Name</label>
+      <input type="text" id="lastnameInput" />
+      <label for="">Email </label>
+      <input type="email" id="emailInput"/>
+      <span id="emailInputerror" class="error-msg"></span>
+      <label for="">Password</label>
+      <input type="password" id="passInput">
+      <span id="passInputError" class="error-msg"></span>
+      <button  class="add"
+       onclick="addStudent()">Add Student</button>
+    </div>
+    <table id="studentTable">
+      <thead>
+        <th>Name</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
